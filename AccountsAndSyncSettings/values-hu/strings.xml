@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2007 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title of the feed synchronization activity. -->
+    <string name="app_label">Fiókok és szinkronizálás</string>
+    <!-- Sync settings -->
+    <!-- Main Settings screen setting option name to go into the screen for data sync settings-->
+    <string name="sync_settings">Fiókok és szinkronizálás beállításai</string>
+    <!-- Error message when the sync tried to delete too many things -->
+    <string name="sync_too_many_deletes">A szinkronizálás elérte a törlésre vonatkozó korlátot</string>
+    <!-- Data synchronization settings screen, title of setting that controls whether background data should be used -->
+    <string name="background_data">Háttéradatok</string>
+    <!-- Data synchronization settings screen, summary of setting that controls whether background data should be used -->
+    <string name="background_data_summary">Az alkalmazások bármikor szinkronizálhatnak, küldhetnek és fogadhatnak adatokat</string>
+    <!-- Data synchronization settings screen, title of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_title">Figyelem</string>
+    <!-- Data synchronization settings screen, message of dialog that confirms the user's unchecking of background data -->
+    <string name="background_data_dialog_message">A háttéradatok letiltásával növelheti az akkumulátor élettartamát és csökkentheti az adathasználatot. Egyes alkalmazások azonban továbbra is használhatják a háttérben zajló adatkapcsolatot.</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="sync_automatically">Automatikus szinkronizálás</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="sync_automatically_summary">Az alkalmazások automatikusan szinkronizálják az adatokat</string>
+    <!-- Data synchronization settings screen, setting option name -->
+    <string name="settings_backup">Biztonsági másolat készítése a beállításokról</string>
+    <!-- Data synchronization settings screen, setting option summary text when check box is selected -->
+    <string name="settings_backup_summary">Biztonsági másolat készítése a beállításaimról</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_now">Szinkronizálás most</string>
+    <!-- Data synchronization settings screen, menu option -->
+    <string name="sync_menu_sync_cancel">Szinkronizálás megszakítása</string>
+    <!-- Data synchronization settings screen, summary of a sync provider (for example, Gmail) when autosync is off and the user wants to do a one-time sync. -->
+    <string name="sync_one_time_sync">"Érintse meg az azonnali szinkronizáláshoz
+"<xliff:g id="last_sync_time">\n%1$s</xliff:g></string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Gmail should be synced.  Should use "Gmail" to refer to this app.-->
+    <string name="sync_gmail">Gmail</string>
+    <!-- Data synchronization settings screen, checkbox setting option name. Controls whether Calendar shoudl be synced. -->
+    <string name="sync_calendar">Naptár</string>
+    <!-- Data synchronization settings screen, checkbox setting option name -->
+    <string name="sync_contacts">Címtár</string>
+    <!-- Dialog message for when there are too many deletes that would take place and we want user confirmation -->
+    <string name="sync_too_many_deletes_desc"><xliff:g id="number_of_deleted_items">%1$d</xliff:g> törölt elem van a(z) <xliff:g id="type_of_sync">%2$s</xliff:g> szinkronizálásánál, a(z) <xliff:g id="account_name">%3$s</xliff:g> fiókban. Mit kíván tenni?</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to delete the items -->
+    <string name="sync_really_delete">Az elemek törlése.</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to undo the deletions -->
+    <string name="sync_undo_deletes">Törlés visszavonása.</string>
+    <!-- Dialog action for when there are too many deletes that would take place and we want user confirmation, and the user wants to do nothing for now -->
+    <string name="sync_do_nothing">Ne tegyen semmit.</string>
+    <!-- Message when sync is currently failing -->
+    <string name="sync_is_failing">A szinkronizálással jelenleg gondok vannak. Hamarosan újra mûködni fog.</string>
+    <!-- Message introducing the user to Google Sync. -->
+    <string name="sync_plug"><font fgcolor="#ffffffff">Üdvözli a Google Sync!</font>
+    \nA Az adatok Google-féle szinkronizálása lehetõvé teszi, hogy bárhonnan hozzáférjen adataihoz.
+    </string>
+
+    <!-- TODO: Remove -->
+    <!-- Header title for those settings relating to application syncing. -->
+    <string name="header_application_sync_settings">Alkalmazásszinkronizálási beállítások</string>
+    <!-- TODO: end -->
+
+    <!-- Accounts & Synchronization settings --><skip/>
+    <!-- Header title for list of accounts on Accounts & Synchronization settings -->
+    <string name="header_manage_accounts">Fiókok kezelése</string>
+    <!-- Header title for those settings relating to general syncing. -->
+    <string name="header_general_sync_settings">Általános szinkronizálási beállítások</string>
+
+    <!-- Sync status messages on Accounts & Synchronization settings --><skip/>
+    <!-- Sync status shown when sync is enabled -->
+    <string name="sync_enabled">Szinkronizálás bekapcsolva</string>
+    <!-- Sync status shown when sync is disabled -->
+    <string name="sync_disabled">Szinkronizálás kikapcsolva</string>
+    <!-- Sync status shown when last sync resulted in an error -->
+    <string name="sync_error">Szinkronizálási hiba</string>
+
+    <!-- Button label to add an account -->
+    <string name="add_account_label">Fiók hozzáadása</string>
+    <!-- Header for data and synchronization -->
+    <string name="header_data_and_synchronization">Adatok és szinkronizálás</string>
+    <!-- Preference item that lets the user change password -->
+    <string name="preference_change_password_title">Jelszó módosítása</string>
+    <!-- Header that appears at the top of Account Settings screen -->
+    <string name="header_account_settings">Fiókbeállítások</string>
+    <!-- Button label to remove current account -->
+    <string name="remove_account_label">Fiók eltávolítása</string>
+    <!-- Title shown in AddAccount -->
+    <string name="header_add_an_account">Fiók hozzáadása</string>
+    <!-- Button shown when this activity is run from SetupWizard -->
+    <string name="finish_button_label">Befejezés</string>
+    <!-- Title of remove message for remove account dialog -->
+    <string name="really_remove_account_title">Fiók eltávolítása</string>
+    <!-- Remove account message in dialog -->
+    <string name="really_remove_account_message">Valóban törli ezt a fiókot? Ha eltávolítja, akkor vele együtt törli az üzeneteit, a névjegyeit, valamint a telefonon lévõ többi vele kapcsolatos adatot.
+    \nFolytatja?</string>
+    <!-- This is shown if the autheticator for a given account fails to remove it. -->
+    <string name="remove_account_failed">Erre a fiókra szüksége van néhány alkalmazásnak. Csak úgy távolíthatja el, hogy visszaállítja az alapértelmezett gyári beállításokat (amivel törli az összes személyes adatát). Ezt a Beállítások között, az Adatvédelem alatt teheti meg.</string>
+    <!-- What to show in messaging that refers to this provider, e.g. AccountSyncSettings -->
+    <string name="provider_label">Feliratkozások továbbítása</string>
+    <!-- Formatter in AccountSyncSettings for each application we wish to synchronize, e.g. "Sync Calendar" -->
+    <string name="sync_item_title"><xliff:g id="authority" example="Calendar">%s</xliff:g> szinkronizálása</string>
+    <!-- Title of dialog shown when you can't manually sync an item because it's disabled -->
+    <string name="cant_sync_dialog_title">Nem lehet kézi vezérléssel szinkronizálni</string>
+    <!-- Messaage shown in dialog when you can't manually sync -->
+    <string name="cant_sync_dialog_message">SEnnek az elemnek a szinkronizálása jelenleg le van tiltva. Preferenciái módosításához ideiglenesen kapcsolja be a háttéradatokat és az automatikus szinkronizálást.</string>
+</resources>
