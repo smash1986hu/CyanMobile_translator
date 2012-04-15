@@ -31,7 +31,7 @@
     <!-- Displayed when user selects a shortcut for an app that was uninstalled -->
     <string name="activity_not_found">Az alkalmazás nincs telepítve.</string>
     <!-- List item for configuring the current wallpaper -->
-    <string name="configure_wallpaper">Beállít…\u2026</string>
+    <string name="configure_wallpaper">Beállít\u2026</string>
 
     <!-- Folders -->
     <skip />
@@ -113,7 +113,7 @@
     <string name="pref_label_settings">ADW Beállítások</string>
     <!-- Screen preferences -->
     <string name="pref_title_screen_preferences">Képernyő beállítások</string>
-    <string name="pref_summary_screen_preferences">Alapértelmezett képernyő, elrendezés…\u2026</string>
+    <string name="pref_summary_screen_preferences">Alapértelmezett képernyő, elrendezés\u2026</string>
 
     <string name="pref_title_wallpaper_hack">Háttérkép Hack</string>
     <string name="pref_summary_wallpaper_hack">Kapcsold ki ha FC-t kapsz, hagyd bekapcsolva a görgetés sebességének javításához.</string>
@@ -234,7 +234,7 @@
     <string name="pref_message_restart_froyo">A beállítás megváltoztatásakor az Indító újraindítja magát</string>
     <string name="drop_to_uninstall">Dobja az Eltávolításhoz</string>
 
-    <string name="toast_widgets_not_supported">Widget nem támogatott…\u2026 sajnáljuk!</string>
+    <string name="toast_widgets_not_supported">Widget nem támogatott\u2026 sajnáljuk!</string>
     <string name="toast_unknown_item">Ismeretlen tétel. Ismeretlen típusú tételt nem lehet hozzáadni!</string>
     <string name="toast_no_application_def">Még nincs alkalmazás definiálva, dobj ide valamit!</string>
 
@@ -256,12 +256,12 @@
 
     <!-- XML Import/Export strings -->
     <string name="message_dialog_export">ADW beállítások mentése? Minden létező fájl felülírásra kerül.</string>
-    <string name="xml_export_dialog">ADW beállítások mentése folyamatban…\u2026</string>
+    <string name="xml_export_dialog">ADW beállítások mentése folyamatban\u2026</string>
     <string name="xml_export_success">ADW beállítások mentése sikeres!</string>
     <string name="xml_export_error">Hiba az ADW beállítások mentése közben!</string>
 
     <string name="message_dialog_import">ADW beállítások visszaállítása? ADW.Indító újraindul.</string>
-    <string name="xml_import_dialog">ADW beállítások visszaállítása folyamatban…\u2026</string>
+    <string name="xml_import_dialog">ADW beállítások visszaállítása folyamatban\u2026</string>
     <string name="xml_file_not_found">Visszaállítási fájl nem található!</string>
     <string name="xml_not_readable">Visszaállítási fájl létezik, de nem olvasható!</string>
     <string name="xml_import_success">ADW beállítások visszaállítása sikeres!</string>
@@ -269,12 +269,12 @@
 
     <!-- Config Import/Export strings -->
     <string name="message_dialog_export_config">Asztal beállítások mentése? Minden létező fájl felülírásra kerül.</string>
-    <string name="dbfile_export_dialog">Asztal beállítások mentése folyamatban…\u2026</string>
+    <string name="dbfile_export_dialog">Asztal beállítások mentése folyamatban\u2026</string>
     <string name="dbfile_export_success">Asztal beállítások mentése sikeres!</string>
     <string name="dbfile_export_error">Hiba az Asztal beállítások mentése közben!</string>
 
     <string name="message_dialog_import_config">Asztal beállítások visszaállítása? ADW.Indító újraindul.</string>
-    <string name="dbfile_import_dialog">Asztal beállítások visszaállítása folyamatban…\u2026</string>
+    <string name="dbfile_import_dialog">Asztal beállítások visszaállítása folyamatban\u2026</string>
     <string name="dbfile_not_found">Beállítási fájl nem található!</string>
     <string name="dbfile_not_readable">Beállítási fájl létezik, de nem olvasható!</string>
     <string name="dbfile_import_success">Asztal beállítások visszaállítása sikeres!</string>
