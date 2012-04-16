@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This is the name of the Download Manager application. -->
+    <string name="app_label">Letöltéskezelő</string>
+
+    <!-- This is the short description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to the Download Manager by
+        applications that initiate downloads. -->
+    <string name="permlab_downloadManager">Hozzáférés a letöltéskezelőhöz.</string>
+    <!-- This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to the Download Manager by
+        applications that initiate downloads. -->
+    <string name="permdesc_downloadManager">Lehetővé teszi az alkalmazás számára
+		a letöltéskezelő elérését és fájlok letöltésére való felhasználását. 
+		A rosszindulatú alkalmazások ezt a letöltés megzavarására 
+		és a személyes adatokhoz való hozzáféréshez használhatják fel.</string>
+
+    <!-- This is the short description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to some advanced (and
+        dangerous) features from the Download Manager that are needed by
+        system applications but aren't necessary for regular applications
+        that just initiate plain downloads. -->
+    <string name="permlab_downloadManagerAdvanced">Speciális letöltéskezelő-funkciók.</string>
+    <!-- This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission controls access to some advanced (and
+        dangerous) features from the Download Manager that are needed by
+        system applications but aren't necessary for regular applications
+        that just initiate plain downloads. -->
+    <string name="permdesc_downloadManagerAdvanced">Lehetővé teszi az alkalmazás számára 
+		a letöltéskezelő speciális funkcióihoz való hozzáférést. 
+		A rosszindulatú alkalmazások ezt a letöltés megzavarására 
+		és a személyes adatokhoz való hozzáféréshez használhatják fel.</string>
+
+    <string name="permlab_downloadCompletedIntent">Letöltési értesítések küldése.</string>
+    <!-- This is the long description of a permission associated with the
+        Android Download Manager. It is displayed as part of the description
+        of any application that was granted that permission.
+        This specific permission allows an application to tell other
+        applications that their downloads have completed. -->
+    <string name="permdesc_downloadCompletedIntent">Lehetővé teszi az alkalmazás számára, 
+		hogy értesítéseket küldjön a befejezett letöltésekről. 
+		A rosszindulatú alkalmazások arra használhatják ezt, 
+		hogy megzavarjanak más, fájlokat letöltő alkalmazásokat.</string>
+
+    <!-- Title for permission to see all downloads to EXTERNAL [CHAR LIMIT=25] -->
+    <string name="permlab_seeAllExternal" product="nosdcard">USB tárhelyre irányuló összes letöltés megtekintése</string>
+    <!-- Title for permission to see all downloads to EXTERNAL -->
+    <string name="permlab_seeAllExternal" product="default">SD-kártyára irányuló összes letöltés megtekintése</string>
+    <!-- Description for the permission to see all downloads to EXTERNAL -->
+    <string name="permdesc_seeAllExternal">Lehetővé teszi az alkalmazás számára az SD-kártyán levő összes letöltés megtekintését, 
+		függetlenül attól, hogy melyik alkalmazás töltötte le azokat.</string>
+
+    <!-- The label for the permission to download files to the download cache
+    that can't be automatically deleted by the download manager to free up
+    space [CHAR LIMIT=50] -->
+    <string name="permlab_downloadCacheNonPurgeable">Hely lefoglalása a letöltési gyorsítótárban</string>
+    <!-- The full sentence description for the permission to download files to
+    the download cache that can't be automatically deleted by the download
+    manager to free up space [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadCacheNonPurgeable">Az alkalmazások letölthetnek fájlokat a letöltési gyorsítótárba, 
+		amelyeket a letöltéskezelő nem törölhet automatikusan, ha helyre van szüksége.</string>
+
+    <!-- The label for the permission to download files through the download
+    manager without any notification being shown to the user [CHAR LIMIT=50] -->
+    <string name="permlab_downloadWithoutNotification">fájlok letöltése értesítés nélkül</string>
+
+    <!-- The full sentence description for the permission to download files
+    through the download manager without any notification being shown to the
+    user [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadWithoutNotification">Az alkalmazások letölthetnek fájlokat a letöltéskezelő segítségével 
+	anélkül, hogy értesítenék róla a felhasználót.</string>
+
+    <!-- The label for the permission to access all downloads in the download
+    manager, not just those owned by the calling user [CHAR LIMIT=50] -->
+    <string name="permlab_accessAllDownloads">Hozzáférés a rendszer összes letöltéséhez</string>
+
+    <!-- The full sentence description for the permission to access all
+    downloads in the download manager, not just those owned by the calling user
+    [CHAR LIMIT=160] -->
+    <string name="permdesc_accessAllDownloads">Az alkalmazások megnézhetik és 
+	módosíthatják a rendszer bármelyik alkalmazása által kezdeményezett letöltéseket.</string>
+
+
+    <!-- This is the title that is used when displaying the notification
+    for a download that doesn't have a title associated with it. -->
+    <string name="download_unknown_title">&lt;Névtelen&gt;</string>
+
+    <!-- When there are multiple simultaneous outstanding downloads from a
+        single application, they are displayed as a single notification,
+        and the expanded notification view displays the first two download
+        names separated with this string, i.e. "[title], [title]"
+        or "[title], [title] and [n] more". This is the comma + space
+        that separates the first two titles, and it's used both when there
+        are exactly two and more than two titles. -->
+    <string name="notification_filename_separator">", "</string>
+
+    <!-- When there are three or more simultaneous outstanding downloads from a
+        single application, they are displayed as a single notification,
+        and the expanded notification view uses this string to indicate
+        downloads beyond the first two, i.e. "[title], [title] and [n] more".
+        This is the " and [n] more" part, including the leading space, and it's
+        used regardless of the number of additional downloads. -->
+    <string name="notification_filename_extras">" és további <xliff:g id="number" example="27">%d</xliff:g> "</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_complete">A letöltés befejeződött.</string>
+
+    <!-- When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace. -->
+    <string name="notification_download_failed">A letöltés nem sikerült</string>
+
+    <!-- When a download is paused because it's too large to download over a
+        mobile connection, and Wi-Fi is unavailable, this string is displayed in
+        the system notification for the running download, beneath the download
+        title and description.  Note that such a download could have been
+        initiated by a variety of applications, including (but not limited to)
+        the browser, an email application, a content marketplace.
+        [CHAR LIMIT=24] -->
+    <string name="notification_need_wifi_for_size">A letöltéshez Wi-Fi kell</string>
+
+    <!-- Title for dialog when a download exceeds the carrier-specified maximum size of downloads
+        over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
+        download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
+        LIMIT=50] -->
+    <string name="wifi_required_title">A letöltés túl nagy a szolgáltató hálózatához</string>
+
+    <!-- Text for dialog when a download exceeds the carrier-specified maximum size of downloads
+        over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
+        download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
+        LIMIT=200] -->
+    <string name="wifi_required_body">Wi-Fit kell használnia a
+        <xliff:g id="size" example="12.3KB">%s
+        </xliff:g> letöltéshez. \n\nKattintson a <xliff:g id="queue_text" example="Queue">%s
+        </xliff:g> gombra, hogy a letöltést akkor kezdje, ha legközelebb Wi-Fi hálózathoz csatlakozik.</string>
+
+    <!-- Title for dialog when a download exceeds the carrier-specified recommended maximum size of
+        downloads over the mobile network, and the user may choose to start the download over mobile
+        anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
+        LIMIT=50] -->
+    <string name="wifi_recommended_title">Várólistára teszi későbbi letöltés céljából?</string>
+
+    <!-- Text for dialog when a download exceeds the carrier-specified recommended maximum size of
+        downloads over the mobile network, and the user may choose to start the download over mobile
+        anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
+        LIMIT=200] -->
+    <string name="wifi_recommended_body">A fájl <xliff:g id="size" example="12.3KB">%s
+        </xliff:g> letöltése miatt hamarabb lemerülhet az akkumulátor
+		és magasabb lehet a mobil adathasználat, 
+		így előfizetésétől függően további költségei lehetnek.\n\n
+        A <xliff:g id="queue_text" example="Queue">%s</xliff:g> lehetőség csak Wi-Fi hálózatban indítja el a letöltést.</string>
+
+
+    <!-- Text for button to queue a download to start next time Wi-Fi is available [CHAR LIMIT=25]
+        -->
+    <string name="button_queue_for_wifi">Várólista</string>
+
+    <!-- Text for button to cancel a download because it's too large to proceed over the mobile
+         network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25] -->
+    <string name="button_cancel_download">Mégse</string>
+
+    <!-- Text for button to start a download over the mobile connection now, even though it's over
+         the carrier-specified recommended maximum size for downloads over the mobile connection
+         [CHAR LIMIT=25] -->
+    <string name="button_start_now">Indítás most</string>
+
+
+</resources>
